@@ -10,7 +10,6 @@ const localStorageFormData = JSON.parse(
 );
 
 let formData = localStorageFormData ? { ...localStorageFormData } : {};
-console.log(formData);
 
 if (localStorageFormData) {
   const { email = '', message = '' } = localStorageFormData;
