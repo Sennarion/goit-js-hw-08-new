@@ -27,6 +27,7 @@ function onFormSubmit(e) {
   e.preventDefault();
   e.currentTarget.reset();
   console.log(formData);
+  formData = {};
   window.localStorage.removeItem(LOCALSTORAGE_KEY);
 }
 
