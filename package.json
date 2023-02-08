@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://sennarion.github.io/parcel-web-storage",
+  "homepage": "https://sennarion.github.io/hw-js-web-storage",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-web-storage/"
+    "build": "parcel build src/*.html --public-url /hw-js-web-storage/"
   },
   "repository": {
     "type": "git",
